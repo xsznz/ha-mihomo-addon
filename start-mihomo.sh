@@ -10,4 +10,4 @@ fi
 
 echo "Starting Mihomo with config: $CONFIG_FILE"
 
-exec /app/mihomo --config "$CONFIG_FILE"
+exec /app/mihomo -f "$CONFIG_FILE"
